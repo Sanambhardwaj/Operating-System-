@@ -1,0 +1,26 @@
+Experiment 03-A
+
+nanofilename.sh
+echo"enter filename"
+read a 
+if test-t $a
+then echo "this is a file"
+elif test-d $a
+then echo "this is a directory"
+else
+echo"it does not exist"
+fi
+
+
+
+
+Experiment 03-B
+
+nano filename.sh
+echo-n"enter filename"
+read filename
+if[!-f $filename]
+then
+echo "filename $filename does not exist"
+exit
+fi
